@@ -25,7 +25,7 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
 curl_exec($ch);
 curl_close($ch);
 
-usleep(600000);
+usleep(600000); // This is the time that the program wait each time it finds a website. Feel free to change this number.
 }
 }
  ?>
